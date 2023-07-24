@@ -1,0 +1,23 @@
+package org.telran.pavel.lesson13Pavel;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] numbers = new int[10];
+
+        int targetNumber = 15;
+
+        for (int currentNumber : numbers) {
+            if (currentNumber == targetNumber) {
+                System.out.println("Ура! Мы нашли число!");
+                break;
+            }
+        }
+
+        for (int i = 0; i < numbers.length ; i++) {
+            if (numbers[i] == targetNumber) {
+                System.out.println("Ура! Мы нашли число!");
+                break;
+            }
+        }
+    }
+}
